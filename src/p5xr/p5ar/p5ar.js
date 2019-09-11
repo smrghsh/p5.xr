@@ -18,6 +18,7 @@ export default class p5ar extends p5xr {
   startSketch(session) {
     this.xrSession = this.xrButton.session = session;
     this.xrSession.addEventListener('end', self.onSessionEnded);
+    this.xrSession.addEventListener('select', onSelect);
     this.canvas = p5.instance.canvas;
 
     if(window.injectedPolyfill) {
