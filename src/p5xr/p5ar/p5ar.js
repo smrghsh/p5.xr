@@ -1,5 +1,4 @@
 import p5xr from '../core/p5xr';
-import * as constants from '../core/constants.js';
 import ARAnchor from './ARAnchor';
 
 export default class p5ar extends p5xr {

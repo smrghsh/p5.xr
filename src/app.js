@@ -1,10 +1,10 @@
-import '../jsartoolkit/artoolkit.api.js';
+import '../jsartoolkit/artoolkit.api';
 import WebXRPolyfill from 'webxr-polyfill';
-import p5vr from './p5xr/p5vr/p5vr.js';
-import p5ar from './p5xr/p5ar/p5ar.js';
-import ARMarkerTracker from './p5xr/p5ar/ARMarkerTracker.js';
-import * as constants from './p5xr/core/constants.js';
-import './p5xr/core/raycasting.js';
+import p5vr from './p5xr/p5vr/p5vr';
+import p5ar from './p5xr/p5ar/p5ar';
+import ARMarkerTracker from './p5xr/p5ar/ARMarkerTracker';
+import * as constants from './p5xr/core/constants';
+import './p5xr/core/raycasting';
 
 window.p5xr = {
   instance: null,

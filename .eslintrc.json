@@ -16,6 +16,9 @@
         "class-methods-use-this": "off",
         "no-underscore-dangle": "off",
         "no-undef": "off",
-        "func-names": "off"
+        "func-names": "off",
+        "no-param-reassign": "off",
+        "import/no-cycle": "off",
+        "consistent-return": "off"
     }
 }
