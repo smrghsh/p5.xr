@@ -12,9 +12,8 @@
         "./jsdoc-preprocessor"
     ],
     "opts": {
-        "template": "node_modules/docdash",
+        "template": "./jsdoc-template/",
         "encoding": "utf8",
-        "destination": "docs/",
         "recurse": true,
         "verbose": true
     },
