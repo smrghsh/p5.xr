@@ -21,6 +21,7 @@
         "import/no-cycle": "off",
         "consistent-return": "off",
         "prefer-destructuring": "off",
-        "no-plusplus": "off"
+        "no-plusplus": "off",
+        "no-multi-assign": "off"
     }
 }
